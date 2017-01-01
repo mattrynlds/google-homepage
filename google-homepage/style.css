@@ -1,0 +1,82 @@
+
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin:0;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+
+
+
+}
+
+li {
+  display: inline;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+nav {
+float:right;
+
+}
+
+
+#logo {
+
+margin-top: 180px;
+}
+
+/* I can't get this part to work */
+#signin {
+
+  border-color: #4285f4;
+
+  background-color:#4285f4;
+
+}
+
+footer {
+  position:absolute;
+  bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 10px;
+  width: 100%;
+
+
+}
+.s-right
+{
+  float:right;
+  margin-right: 30px;
+}
+
+/* Copied from another's source, but still looks weird comparatively */
+input[name=searchinput] {
+    border: 1px solid;
+    padding: 0px;
+    margin: 0px;
+    height: 34px;
+    background: transparent;
+    outline: none;
+    width: 50%;
+
+}
